@@ -70,7 +70,8 @@ Used visual elements like charts, graphs, and tables to present data insights ef
     INNER JOIN skills_job_dim ON skills_job_dim.job_id= top_paying_jobs.job_id
     INNER JOIN skills_dim ON skills_dim.skill_id= skills_job_dim.skill_id
     ORDER BY salary_year_avg DESC 
-![Top Skills Pay](asset\2-TopSkillsi.png)
+   ![Top Skills Pay](asset/2-TopSkillsi.png)
+
 **Graph visualizing the market rates for the top 7 incomes for each skills.Created by PowerBI from Sql  queries from Postgre server.
 
 ## 3- In-Demand Skills for Data Analysts
